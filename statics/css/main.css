@@ -46,6 +46,13 @@
 .test{
   color: red;
 }
+@font-face {
+  font-family: avini;
+  src: url(avini.ttf);
+}
+*{
+  font-family: avini;
+}
 
 .dark-background {
   --background-color: #060606;
@@ -75,7 +82,7 @@
 body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
+  font-family: avini;
 }
 
 a {
@@ -96,7 +103,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: var(--heading-font);
+  font-family: avini;
 }
 
 /* Pulsating Play Button
@@ -243,7 +250,7 @@ h6 {
 }
 
 .header .topbar {
-  background-color: color-mix(in srgb, var(--accent-color) 90%, black 10%);
+  background-color: white;
   height: 40px;
   padding: 0;
   font-size: 14px;
@@ -252,13 +259,13 @@ h6 {
 
 .header .topbar .contact-info i {
   font-style: normal;
-  color: var(--contrast-color);
+  color: black;
 }
 
 .header .topbar .contact-info i a,
 .header .topbar .contact-info i span {
   padding-left: 5px;
-  color: var(--contrast-color);
+  color: black;
 }
 
 @media (max-width: 575px) {
@@ -275,12 +282,12 @@ h6 {
 }
 
 .header .topbar .contact-info i a:hover {
-  color: var(--contrast-color);
+  color: black;
   text-decoration: underline;
 }
 
 .header .topbar .social-links a {
-  color: color-mix(in srgb, var(--contrast-color), transparent 40%);
+  color: black;
   line-height: 0;
   transition: 0.3s;
   margin-left: 20px;
@@ -356,7 +363,7 @@ h6 {
     color: var(--nav-color);
     font-size: 15px;
     padding: 0 2px;
-    font-family: var(--nav-font);
+    font-family: avini;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -368,7 +375,7 @@ h6 {
 
   .navmenu a i,
   .navmenu a:focus i {
-    font-size: 12px;
+    font-size: 30px;
     line-height: 0;
     margin-left: 5px;
     transition: 0.3s;
@@ -427,7 +434,7 @@ h6 {
   }
 
   .navmenu .dropdown ul a i {
-    font-size: 12px;
+    font-size: 30px;
   }
 
   .navmenu .dropdown ul a:hover,
@@ -492,7 +499,7 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-dropdown-color);
     padding: 10px 20px;
-    font-family: var(--nav-font);
+    font-family: avini;
     font-size: 17px;
     font-weight: 500;
     display: flex;
@@ -611,12 +618,12 @@ h6 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: var(--heading-font);
+  font-family: avini;
 }
 
 .footer .footer-about p {
   font-size: 14px;
-  font-family: var(--heading-font);
+  font-family: avini;
 }
 
 .footer .social-links a {
@@ -920,7 +927,7 @@ section,
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
-  font-family: var(--heading-font);
+  font-family:avini;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1115,7 +1122,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   padding: 15px 0 0 0;
   margin: 0;
-  font-family: var(--heading-font);
+  font-family: avini;
   font-size: 14px;
 }
 
@@ -1240,7 +1247,7 @@ section,
 }
 
 .call-to-action .cta-btn {
-  font-family: var(--heading-font);
+  font-family: avini;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1677,7 +1684,7 @@ section,
   font-size: 48px;
   color: var(--accent-color);
   font-weight: 700;
-  font-family: var(--heading-font);
+  font-family: avini;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -1733,7 +1740,7 @@ section,
   transition: none;
   font-size: 16px;
   font-weight: 600;
-  font-family: var(--heading-font);
+  font-family: avini;
   transition: 0.3s;
 }
 
